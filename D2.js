@@ -48,7 +48,7 @@ let g = 8
 let f = 16
 
 if (g === 8){ console.log("è uguale a 8")}
-if (f=== 8){ console.log ("è uguale a snm")}
+if (f=== 8){ console.log ("è uguale a snmfffge")}
 if (g + f === 8)
 {console.log(caso1)}
 if (g - f === 8){ console.log(caso2)}
@@ -60,6 +60,16 @@ if (g - f === 8){ console.log(caso2)}
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let totalCart = 28
+let totalTotal 
+let shipping = 10
+
+if (totalCart >=50) 
+  { totalTotal = totalCart
+
+   } else {totalTotal = totalCart + shipping
+
+   }
 
 
 /* ESERCIZIO 6
@@ -76,12 +86,27 @@ if (g - f === 8){ console.log(caso2)}
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let z1 = 56 
+let z2 = 32
+let z3 = 101
 
+if(z1> z2) {
+  if(z1> z3){
+    if(z2>z3) {
+      
+    }
+  }
+}
 
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
-
+let numberOrNot = 'CIAONE'
+if(typeof numberOrNot === 'number') {
+  console.log('èun numero')
+} else {
+  console.log('NON è un numero')
+}
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 9
@@ -113,7 +138,8 @@ const me = {
   lastName: 'Doe',
   skills: ['javascript', 'html', 'css'],
 }
-
+me.city = 'Totonto'
+console.log(me)
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
@@ -122,13 +148,13 @@ const me = {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+delete me.lastname
 /* ESERCIZIO 13
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere l'ultimo elemento della proprietà "skills".
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+me.skills.pop()
 /* ESERCIZIO 14
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
 
